@@ -1,5 +1,5 @@
 from backbone import ResNet12, ConvNet, WideResNet
-from dpgn_proto import DPGN
+from cyclic_update import DPGN
 from utils_proto import set_logging_config, adjust_learning_rate, save_checkpoint, allocate_tensors, preprocessing, \
     initialize_nodes_edges, backbone_two_stage_initialization, one_hot_encode
 from dataloader import MiniImagenet, TieredImagenet, Cifar, CUB200, Msd, DataLoader
