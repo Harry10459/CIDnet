@@ -13,7 +13,7 @@ DGAM 2007 dataset:
 link: https://aistudio.baidu.com/aistudio/datasetdetail/97571
 
 # Training
-python  main_proto.py --dataset_root dataset --config config/proto_5way_5shot_resnet12_msd.py --num_gpu 2 --mode train
+```python  main_proto.py --dataset_root dataset --config config/proto_5way_5shot_resnet12_msd.py --num_gpu 2 --mode train```
 
 # Evaluation
-python  main_proto.py --dataset_root dataset --config config/proto_5way_5shot_resnet12_msd.py --num_gpu 2 --mode eval
+```python  main_proto.py --dataset_root dataset --config config/proto_5way_5shot_resnet12_msd.py --num_gpu 2 --mode eval```
